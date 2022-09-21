@@ -1,0 +1,51 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+[x-cloak] {
+    display: none !important;
+}
+
+.dark-bg {
+    @apply dark:bg-slate-800;
+}
+
+.dark-bg-secondary {
+    @apply dark:bg-slate-900;
+}
+
+.dark-border {
+    @apply dark:border-slate-700;
+}
+
+.dark-border-secondary {
+    @apply dark:border-slate-800;
+}
+
+.dark-text {
+    @apply dark:text-blue-300;
+}
+
+.dark-text-secondary {
+    @apply dark:text-gray-400;
+}
+
+.dark-placeholder {
+    @apply dark:placeholder-blue-300;
+}
+
+.dark-sidebar-link:hover {
+    @apply dark-bg-secondary;
+}
+
+.dark-divide {
+    @apply dark:divide-slate-900;
+}
+
+.dark-scrollbar {
+    @apply dark:scrollbar-thumb-slate-800;
+}
+
+.dark-scrollbar-track {
+    @apply dark:scrollbar-track-slate-900;
+}
